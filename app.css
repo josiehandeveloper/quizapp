@@ -6,3 +6,110 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato;
+  color: black;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  padding: 10px 0 0 0;
+  color:black;
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+
+}
+
+p {
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+
+}
+
+.question-and-score {
+  font-size: 20px;
+  font-weight: 600px;
+  color: black;
+  text-align: center;
+  list-style: none;
+  padding-bottom:5% ;
+}
+
+.question {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+button {
+  margin-top:10px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+.start-screen {
+  width:80%;
+  padding: 40px;
+  margin: 55px auto 0 auto;
+  border-radius: 10px;
+}
+
+
+
+.question-form .question {
+  margin-bottom: 20px;
+  padding: 0 2%;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.options ul {
+  list-style: none;
+  margin:0;
+  text-align:left;
+}
+
+label {
+  font-size:18px;
+}
+
+.options span {
+  display:block;
+  border-radius:5px;
+}
+
+
+.question-form button {
+  float:right;
+}
+
+
+button:disabled {
+  opacity:0.5;
+}
+
+#next-question-btn {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
